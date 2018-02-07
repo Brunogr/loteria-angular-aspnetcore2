@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="22.0.2" />
+    <PackageReference Include="Moq" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loteria.Core.Domain\Loteria.Core.Domain.csproj" />
+    <ProjectReference Include="..\Loteria.Infra.Data\Loteria.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

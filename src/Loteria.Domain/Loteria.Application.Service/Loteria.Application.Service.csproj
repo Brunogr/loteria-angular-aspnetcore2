@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loteria.Application.Model\Loteria.Application.Model.csproj" />
+    <ProjectReference Include="..\Loteria.Infra.Data\Loteria.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

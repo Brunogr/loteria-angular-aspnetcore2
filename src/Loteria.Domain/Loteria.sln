@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loteria.Domain", "Loteria.Domain\Loteria.Domain.csproj", "{2D5029E3-7CB3-4A91-83C5-9562B935D2D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{203F5384-37BC-452E-9F06-1CC576943D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{720A47EF-1005-429E-94FB-F90168E395CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{3A967DB2-E092-4BA8-9315-46FDBE286C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{E0689094-DDA1-45B8-AD65-7EF5EFA6B201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loteria.WebApi", "Loteria.WebApi\Loteria.WebApi.csproj", "{4B18D01A-903F-4C8B-99ED-AA1BD92330F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Core", "5 - Core", "{79659945-F922-4AFB-AB79-B07812C336F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Core.Domain", "Loteria.Core.Domain\Loteria.Core.Domain.csproj", "{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Domain.Test", "Loteria.Domain.Test\Loteria.Domain.Test.csproj", "{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Infra.Data", "Loteria.Infra.Data\Loteria.Infra.Data.csproj", "{12D20937-38EF-4836-B109-59D166EF8237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Infra.CrossCutting", "Loteria.Infra.CrossCutting\Loteria.Infra.CrossCutting.csproj", "{0913F937-1641-46E8-B217-3CF075F700AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Application.Service", "Loteria.Application.Service\Loteria.Application.Service.csproj", "{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Application.Model", "Loteria.Application.Model\Loteria.Application.Model.csproj", "{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Application.Service.Test", "Loteria.Application.Service.Test\Loteria.Application.Service.Test.csproj", "{ADC8B7E1-8A4E-409E-BE58-AE003936B06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loteria.Core.Test", "Loteria.Core.Test\Loteria.Core.Test.csproj", "{DD25F13B-836C-419D-A76A-5717BBB5FE12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D5029E3-7CB3-4A91-83C5-9562B935D2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5029E3-7CB3-4A91-83C5-9562B935D2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5029E3-7CB3-4A91-83C5-9562B935D2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5029E3-7CB3-4A91-83C5-9562B935D2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B18D01A-903F-4C8B-99ED-AA1BD92330F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B18D01A-903F-4C8B-99ED-AA1BD92330F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B18D01A-903F-4C8B-99ED-AA1BD92330F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B18D01A-903F-4C8B-99ED-AA1BD92330F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D20937-38EF-4836-B109-59D166EF8237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D20937-38EF-4836-B109-59D166EF8237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D20937-38EF-4836-B109-59D166EF8237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D20937-38EF-4836-B109-59D166EF8237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0913F937-1641-46E8-B217-3CF075F700AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0913F937-1641-46E8-B217-3CF075F700AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0913F937-1641-46E8-B217-3CF075F700AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0913F937-1641-46E8-B217-3CF075F700AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC8B7E1-8A4E-409E-BE58-AE003936B06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC8B7E1-8A4E-409E-BE58-AE003936B06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC8B7E1-8A4E-409E-BE58-AE003936B06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC8B7E1-8A4E-409E-BE58-AE003936B06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD25F13B-836C-419D-A76A-5717BBB5FE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD25F13B-836C-419D-A76A-5717BBB5FE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD25F13B-836C-419D-A76A-5717BBB5FE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD25F13B-836C-419D-A76A-5717BBB5FE12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D5029E3-7CB3-4A91-83C5-9562B935D2D7} = {720A47EF-1005-429E-94FB-F90168E395CB}
+		{4B18D01A-903F-4C8B-99ED-AA1BD92330F3} = {203F5384-37BC-452E-9F06-1CC576943D12}
+		{4633B81B-7D72-4A74-8AE2-76C0CAFDBE79} = {79659945-F922-4AFB-AB79-B07812C336F3}
+		{F2F33503-E624-4C3B-8A69-1A14FB6BEC7E} = {720A47EF-1005-429E-94FB-F90168E395CB}
+		{12D20937-38EF-4836-B109-59D166EF8237} = {E0689094-DDA1-45B8-AD65-7EF5EFA6B201}
+		{0913F937-1641-46E8-B217-3CF075F700AC} = {E0689094-DDA1-45B8-AD65-7EF5EFA6B201}
+		{5617EE2C-A2F0-4B3D-AE6F-86F6A2173A30} = {3A967DB2-E092-4BA8-9315-46FDBE286C0E}
+		{9EF91D9C-8725-4BC2-86DB-EB77BDFF0797} = {3A967DB2-E092-4BA8-9315-46FDBE286C0E}
+		{ADC8B7E1-8A4E-409E-BE58-AE003936B06B} = {3A967DB2-E092-4BA8-9315-46FDBE286C0E}
+		{DD25F13B-836C-419D-A76A-5717BBB5FE12} = {79659945-F922-4AFB-AB79-B07812C336F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AB8AE79-DED4-4C83-9222-DAFAE37CF61F}
+	EndGlobalSection
+EndGlobal

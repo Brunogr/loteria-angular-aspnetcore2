@@ -9,5 +9,7 @@ namespace Loteria.Application.Service.Interface
     {
         CartelaViewModel FazerJogo(int[] numeros);
         CartelaViewModel FazerJogoAutomatico();
+
+        List<CartelaViewModel> GetAll();
     }
 }

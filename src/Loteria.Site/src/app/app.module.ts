@@ -5,19 +5,32 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { CartelaComponent } from './components/cartela/cartela.component';
+import { SorteioComponent } from './components/sorteio/sorteio.component';
+import { CartelaService } from './services/cartela.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule} from '@angular/forms';
+import { SorteioService } from './services/sorteio.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CartelaComponent,
+    SorteioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    CartelaService,
+    SorteioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

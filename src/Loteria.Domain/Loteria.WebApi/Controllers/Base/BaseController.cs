@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Loteria.WebApi.Controllers.Base
 {
     [Produces("application/json")]
-    [Route("pos/api/v1/[controller]")]
+    [Route("loteria/api/v1/[controller]")]
     public class BaseController : Controller
     {
     }

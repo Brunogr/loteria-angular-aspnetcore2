@@ -38,6 +38,11 @@ namespace Loteria.Application.Service
             return _mapper.Map<CartelaViewModel>(cartela);
         }
 
+        public List<CartelaViewModel> GetAll()
+        {
+            return _mapper.Map<List<CartelaViewModel>>(_cartelaRepository.GetAll());
+        }
+
         private int GerarProximoId()
         {
             return _cartelaRepository.GetAll().Any() ? _cartelaRepository.GetAll().Max(c => c.Id) + 1 : 1;

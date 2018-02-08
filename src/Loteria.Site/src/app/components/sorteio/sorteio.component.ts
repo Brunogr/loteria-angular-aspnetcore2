@@ -1,3 +1,4 @@
+import swal from 'sweetalert2';
 import { Component, OnInit } from '@angular/core';
 import { SorteioService } from '../../services/sorteio.service';
 import { SorteioModel } from '../../models/sorteio.model';
@@ -19,7 +20,7 @@ export class SorteioComponent implements OnInit {
   sortear(){
     this.sorteioService.sortear().then(s => {
       this.sorteio = s;
-      console.log(s);
+      swal("Sorteio efetuado! Verifique os números sorteados e os ganhadores.");
     });
   }
 
